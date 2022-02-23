@@ -11,6 +11,7 @@ import (
 func TestIncidentPositive(t *testing.T) {
 	g := NewGomegaWithT(t)
 
+	//Positive
 	incident := Incident{
 		Title:         "มีคนได้รับบาดเจ็บ",
 		Informer:      "นายธนพล  ปักโคทานัง",
